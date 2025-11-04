@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Data files (large, stored in GCP)
+data/raw/*.csv
+data/raw/*.parquet
+data/bronze/*.csv
+data/silver/*.parquet
+*.csv
+*.parquet
+
+# Logs
+logs/*.log
+logs/*.txt
+
+# Keep directory structure
+!data/
+!data/raw/
+!data/bronze/
+!data/silver/
+!data/gold/
+!logs/
